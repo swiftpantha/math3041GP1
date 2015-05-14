@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{R}
+{R Core Team}.
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2015.
+
+\bibitem{deSolve}
+Karline Soetaert, Thomas Petzoldt, and R.~Woodrow Setzer.
+\newblock Solving differential equations in r: Package desolve.
+\newblock {\em Journal of Statistical Software}, 33(9):1--25, 2010.
+
+\bibitem{phaseR}
+Michael~J. Grayling.
+\newblock {\em phaseR: Phase Plane Analysis of One and Two Dimensional
+  Autonomous ODE Systems}, 2014.
+\newblock R package version 1.3.
+
+\bibitem{ggplot}
+Hadley Wickham.
+\newblock {\em ggplot2: elegant graphics for data analysis}.
+\newblock Springer New York, 2009.
+
+\bibitem{standardNotation}
+Hiroaki Kitano.
+\newblock The standard graphical notation for biological networks.
+\newblock In {\em The Sixth Workshop on Software Platforms for Systems
+  Biology}, 2002.
+
+\bibitem{slides}
+Hidde de~Jong.
+\newblock Mathematical modeling of genetic regulatory networks.
+
+\bibitem{multiGene}
+Hidde De~Jong and Johannes Geiselmann.
+\newblock Modeling and simulation of genetic regulatory networks by ordinary
+  differential equations.
+\newblock {\em Genomic Signal Processing and Statistics. New York: Hindawi
+  Publishing Corporation}, pages 201--39, 2005.
+
+\end{thebibliography}

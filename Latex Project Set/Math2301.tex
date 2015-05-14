@@ -1,0 +1,67 @@
+\documentclass[]{article}
+\usepackage{amsmath,amsfonts,amssymb,fancyhdr, enumerate, graphicx}
+\usepackage[bottom]{footmisc}
+\usepackage{setspace}
+\usepackage{cite}
+\doublespacing
+
+\pagestyle{fancy}  
+\oddsidemargin 1cm
+\hoffset-1cm
+\voffset-0.5cm
+\topmargin-1.4cm
+\textheight 24cm \textwidth 16.5cm \parindent 0.5cm
+
+\begin{document}
+
+\title{Math 2301 - Summaries}
+\author{Mossy}
+\date{Today}
+\maketitle
+
+\section*{Floating Point Aritmetic}
+\subsection*{Representation}
+Every real number $x$ has a floating point representation.
+\[x = S b^e\]
+\begin{itemize}
+\item $S = significand$
+\item $b = base$
+\item $e = exponent$
+\end{itemize}
+
+
+\subsection*{Binary}
+\subsubsection*{Integer Conversion}
+\[
+\begin{array}{ccccccc}
+x & 50 & 25 & 12 & 6 & 3 & 1\\
+\mod(x,2) & 0 & 1 & 0 & 0 & 1 & 1
+\end{array}
+\]
+
+\subsubsection*{Non Integer Conversion}
+\[
+\begin{array}{c c c c c c}
+x & 0.3125 & 0.625 & 0.25 & 0.5 & 0\\
+2x > 1 & 0 & 0 & 1 & 0 & 1
+\end{array}
+\]
+\pagebreak
+
+\subsubsection*{Rounding Error Analysis}
+$\varepsilon$ is the interval in the computer. A number is rounded to the nearest number able to be composed of an integer number of $\varepsilon$. You either round up or down unless it is exactly in between the two. In this case if $d_{p-1}$ is odd you round up if even down.
+
+\begin{itemize}
+\item error in $x_*=x_* - x$
+\item absolute error in $x_* = |x_*-x|$
+\item relative error in $x_* = \frac{|x_*-x|}{|x|}$
+\end{itemize}
+
+\subsubsection*{Signifcant Digits}
+We define the number of significant figures to be
+\[max_{d\in \mathbb Z }\left(\frac{|x_*-x|}{|x|}<0.5\times 10^{-d}\right) \]
+
+
+
+
+\end{document}
